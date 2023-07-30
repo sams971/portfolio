@@ -1,35 +1,47 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+title: Fresh Restaurant
+publishDate: 2023-07-02 00:00:00
+img: /assets/fresh restaurant.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Dernière maquette d'un restaurant réalisée en formation 
 tags:
-  - Design
+  - front-en
   - Dev
-  - User Testing
 ---
 
-## Level-two heading
+## Instructions Front
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> Objectifs
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Réaliser une fiche d'un produit d'un site marchand en matériel informatique / électronique.
+- Faire le code le plus propre possible
+- Valider le code sur https://validator.w3.org/ (à minima, pas d'érreur)
+- Adopter et utiliser les bonnes pratiques de codage
+- Utiliser une nomenclature en CSS
+- Utiliser des variables natives CSS
+- Ajouter des éléments d'accessibilité (alt dans images / menu focus / outline / roles)
+- Créer sa propre font-icon sur IcoMoon App
+- Utiliser un sprite (pour les images des options de paiement)
+- Combiner du HTML du CSS et du code Javascript pour réaliser les éléments intéractifs réutilisables
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+## Recommandations
 
-### Level-three heading
+- Utiliser normalize.css
+- Utiliser box-sizing: border-box
+- Utiliser l'unité rem pour les fonts
+- Utiliser des variables CSS
+- Structurer la feuille de style avec des commentaires et regrouper les déclaration par ordre d'apparition ET/OU par composant (une classe qui pourrait être réutilisée dans un autre projet)
+- Utiliser une nomenclature comme BEM
+- Nommer les classes et les ID en anglais
+- Utiliser uniquement les ID pour le Javascript et pour les ancres / pas d'ID dans la feuille de style
+- Ne pas oublier de liens (utiliser href="#" dans les liens du menu)
+- Valider le code sur https://validator.w3.org/ (à minima, pas d'érreur)
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+### Responsive Web Design
 
-### Level-three heading
+Rendre la page responsive pour bureau, tablette et mobile
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+Points de rupture
+- entre mobile et tablette: 480px
+- entre tablette et bureau: 960px
